@@ -1,2 +1,2 @@
 cd build
-abaqus cae -custom sljApp_Advanced.py -nostartup
+abaqus cae -custom sljApp_Advanced -nostartup
