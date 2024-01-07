@@ -1,0 +1,13 @@
+
+
+# Exclude .csv files from the main folder
+.csv
+.txt
+build/temp
+build/*
+
+# Include the .py and .pyc files
+!.pyc
+
+build/abaqusMacros.py
+build/abaqusMacros.pyc
