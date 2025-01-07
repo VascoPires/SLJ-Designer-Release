@@ -1,7 +1,0 @@
-File "C:\Users\vasco\Documents\GitHub\SLJ_Designer\build\sljModuleGui.py", line 621, in <module>
-    SLJModuleGui()
-File "C:\Users\vasco\Documents\GitHub\SLJ_Designer\build\sljModuleGui.py", line 63, in __init__
-    self.form = geomForm.GeomForm(self)
-File "C:\Users\vasco\Documents\GitHub\SLJ_Designer\build\geomForm.py", line 36, in __init__
-    self.GroupBoxRadio_GeomKw1.addHandler(self.onRadioButtonChange)
-AttributeError: AFXIntKeyword instance has no attribute 'addHandler'
