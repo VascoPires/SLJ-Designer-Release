@@ -1,13 +1,39 @@
-
-
-# Exclude .csv files from the main folder
-.csv
-.txt
-build/temp
-build/*
-
-# Include the .py and .pyc files
-!.pyc
-
+# Abaqus scratch, job and log files written to build/ at run time
+build/temp/
+build/abaqus.rpy*
+build/abaqus.guiState*
 build/abaqusMacros.py
 build/abaqusMacros.pyc
+build/slj_debug.log
+build/*.exception
+build/*.dmp
+build/*.log
+build/*.odb
+build/*.lck
+build/*.com
+build/*.dat
+build/*.msg
+build/*.sta
+build/*.prt
+build/*.sim
+build/*.ipm
+build/*.inp
+build/*.res
+build/*.mdl
+build/*.stt
+build/*.023
+build/*.cae
+build/*.jnl
+build/*.rec
+build/*.env
+build/*.SMABulk
+build/*.cid
+build/*.simdir/
+build/*.simlog
+
+# Exported results
+/*.csv
+/results_*.png
+
+# Source is not shipped in the release
+*.py
